@@ -1,8 +1,8 @@
-all:	build
+all:	collectd_read_temper
 
 CFLAGS = -O2 -Wall
 
-build:	collectd_read_temper.c
+collectd_read_temper:	collectd_read_temper.c
 	${CC} -DUNIT_TEST -o $@ $^ -lusb
 
 clean:
