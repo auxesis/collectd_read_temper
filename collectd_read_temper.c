@@ -6,6 +6,11 @@
 #include <time.h>
 
 /*
+ * Modified by Lindsay Holmwood to output information in collectd exec plugin
+ * format. (c) 2018
+ */
+
+/*
  * Modified by Alex Nagelberg to output information to JSON file. Free to do
  * whatever the hell you want with, no shoutouts or blame needed. (c) 2014
  *
